@@ -4,5 +4,5 @@
 Repositório dedicado às atividades do Curso de Pós-gradução em Inteligencia Artificial e Aprendizado de Maquina (Oferta 3) da PUC Minas - Campus Praça da Liberdade - Belo Horizonte/MG.
 
 
-## [PAM2 - Projeto Integrado em Aprendizagem de Máquina](/PMA2)
+## [PAM2 - Projeto Integrado em Aprendizagem de Máquina](PAM2)
 Trabalhos apresentados nesta disciplina
