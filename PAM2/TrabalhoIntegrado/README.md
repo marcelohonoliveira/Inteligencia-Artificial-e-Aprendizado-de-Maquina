@@ -4,4 +4,4 @@
 Predição de diagnóstico oconlógico (biópsia) a partir de um dataset que centra-se na previsão de indicadores de anaminese para Câncer do Colo do Útero e com recursos que abrangem informações demográficas, hábitos e registros médicos históricos.
 
 1. [Documentação](01-Documentacao) - Documentos do Projeto apresentados nas atividades da disciplina.
-2. [Projeto](02-Projeto) - Setup da projeto e codificação da modelagem via Notebook Jupyter do Google Colab.
+2. [Projeto](02-Projeto) - Setup do projeto e codificação da modelagem via Notebook Jupyter do Google Colab.
