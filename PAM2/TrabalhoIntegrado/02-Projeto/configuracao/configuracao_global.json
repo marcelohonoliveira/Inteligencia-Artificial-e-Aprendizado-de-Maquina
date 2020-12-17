@@ -1,0 +1,17 @@
+{
+    "ARQUIVO": {
+        "arquivo_dados": "arquivo_dados.csv",
+        "arquivo_dados_colunas": "arquivo_dados_colunas.json",
+        "arquivo_original": "risk_factors_cervical_cancer.csv",
+        "arquivo_resultados": "arquivo_resultados.json",
+        "dir_dados": "dados/",
+        "dir_treinamento": "treinamento/"
+    },
+    "TREINAMENTO": {
+        "gridsearchcv_cv": 10,
+        "gridsearchcv_scoring": "f1_weighted"
+    },
+    "URL": {
+        "url_dados": "https://archive.ics.uci.edu/ml/machine-learning-databases/00383/risk_factors_cervical_cancer.csv"
+    }
+}

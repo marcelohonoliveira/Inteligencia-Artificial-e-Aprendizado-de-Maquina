@@ -1,0 +1,83 @@
+{
+    "AdaBoostClassifier": {
+        "accuracy": 0.5985915492957746,
+        "best_params": {
+            "estimador__learning_rate": 0.01,
+            "estimador__n_estimators": 150,
+            "estimador__random_state": 1
+        },
+        "f1_weighted": 0.6996050944122485
+    },
+    "GradientBoostingClassifier": {
+        "accuracy": 0.778169014084507,
+        "best_params": {
+            "estimador__learning_rate": 0.01,
+            "estimador__max_depth": 3,
+            "estimador__min_samples_leaf": 2,
+            "estimador__min_samples_split": 2,
+            "estimador__n_estimators": 100,
+            "estimador__random_state": 1
+        },
+        "f1_weighted": 0.8378587261850914
+    },
+    "KNeighborsClassifier": {
+        "accuracy": 0.8380281690140845,
+        "best_params": {
+            "estimador__leaf_size": 15,
+            "estimador__n_jobs": -1,
+            "estimador__n_neighbors": 2,
+            "estimador__weights": "distance"
+        },
+        "f1_weighted": 0.8569577792186627
+    },
+    "LogisticRegression": {
+        "accuracy": 0.7323943661971831,
+        "best_params": {
+            "estimador__C": 2000,
+            "estimador__multi_class": "multinomial",
+            "estimador__solver": "newton-cg",
+            "estimador__tol": 0.0001
+        },
+        "f1_weighted": 0.7265543724140977
+    },
+    "RandomForestClassifier": {
+        "accuracy": 0.9190140845070423,
+        "best_params": {
+            "estimador__criterion": "gini",
+            "estimador__min_samples_leaf": 3,
+            "estimador__min_samples_split": 3,
+            "estimador__n_estimators": 100,
+            "estimador__n_jobs": 2,
+            "estimador__random_state": 1
+        },
+        "f1_weighted": 0.9041947758161338
+    },
+    "SVC": {
+        "accuracy": 0.5246478873239436,
+        "best_params": {
+            "estimador__C": 100,
+            "estimador__kernel": "sigmoid",
+            "estimador__probability": true,
+            "estimador__random_state": 1,
+            "estimador__tol": 0.005
+        },
+        "f1_weighted": 0.5397851149301154
+    },
+    "XGBClassifier": {
+        "accuracy": 0.926056338028169,
+        "best_params": {
+            "estimador__colsample_bytree": 0.8,
+            "estimador__gamma": 0,
+            "estimador__learning_rate": 0.1,
+            "estimador__max_depth": 5,
+            "estimador__min_child_weight": 1,
+            "estimador__n_estimators": 100,
+            "estimador__nthread": 4,
+            "estimador__objective": "binary:logistic",
+            "estimador__scale_pos_weight": 1,
+            "estimador__seed": 27,
+            "estimador__subsample": 0.8
+        },
+        "f1_weighted": 0.9039041686560516
+    }
+}
